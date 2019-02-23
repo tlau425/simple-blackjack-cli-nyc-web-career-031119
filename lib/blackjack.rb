@@ -22,9 +22,9 @@ def get_user_input
   # code #get_user_input here
   gets.chomp
   if gets.chomp == "h"
-    puts "h"
+    "h"
   else
-    puts "s"
+    "s"
   end
 end
 
