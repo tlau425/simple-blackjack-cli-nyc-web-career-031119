@@ -10,7 +10,7 @@ end
 
 def display_card_total
   # code #display_card_total here
-  card_total = 
+  card_total = card1 + card2
   puts "Your cards add up to #{card_total}"
 end
 
