@@ -25,6 +25,7 @@ def get_user_input
     puts "h"
   else
     puts "s"
+  end
 end
 
 def end_game
