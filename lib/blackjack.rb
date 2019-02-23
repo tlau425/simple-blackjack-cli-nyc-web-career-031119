@@ -21,7 +21,10 @@ end
 def get_user_input
   # code #get_user_input here
   gets.chomp
-  puts gets.chomp
+  if gets.chomp == "h"
+    puts "h"
+  else
+    puts "s"
 end
 
 def end_game
